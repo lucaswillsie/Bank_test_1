@@ -8,29 +8,33 @@
     <title>Hello</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-<center>
-
-
+    <link rel="stylesheet" href="login-page.css">
 </head>
     <style>
         .heading {
             color: #D5A32A;        
         }
         body {
-            background-color: #FFFFFF;
-            font-size: 21px;
-            font-family: 'Dancing Script', cursive;
+    background-color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Dancing Script', cursive;
 }
     </style>    
 <body>
-</center>
-    <h1 class="heading">G&L Banking</h1>
-    Username:<input type="text">
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+        
+        <form id="login-form">
+          <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+          <a href="account_bal.html">
+          <input type="submit" value="Login" id="login-form-submit">
+        </a>
+        </form>
 
-    <br>
-    Password: <input type="password">
-    <a href="account_bal.html">
-        <button>Enter</button>
-    </a>
 </body>
 </html>
