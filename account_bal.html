@@ -9,23 +9,57 @@
     <div id="myMenu">
         <div class="myWrapper">
           <nav>
-          <a href="Index.html"><img src="../Bank_test_1/Edd.png" height="80" width="80" /></a>
+          <a href="Index.html"><img src="../images/logo.png" height="80" width="80" /></a>
           </nav>
         </div>
       </div>
       <script type="text/javascript">
-        var theAmount = 5;
+        var theAmount_5 = 5;
+        var theAmount_10 = 10;
+        var theAmount_20 = 20;
+        var theAmount_50 = 50;
+        var theAmount_100 = 100;
         var theBankAccount = {
           banknumber: 'G01',
           owner: 'Methhead Larry',
           balance: 100,
-          deposit: function() {
-            this.balance += theAmount;
+          deposit_5: function() {
+            this.balance += theAmount_5;
             document.accountInfo.currentbalance.value=this.balance;
           },
-          withdraw: function() {
-            this.balance -= theAmount;
+          withdraw_5: function() {
+            this.balance -= theAmount_5;
             document.accountInfo.currentbalance.value=this.balance;
+            
+          },
+
+          deposit_10: function() {
+            this.balance += theAmount_10;
+            document.accountInfo.currentbalance.value=this.balance;
+          },
+          withdraw_10: function() {
+            this.balance -= theAmount_10;
+            document.accountInfo.currentbalance.value=this.balance;
+            
+          },
+          deposit_20: function() {
+            this.balance += theAmount_20;
+            document.accountInfo.currentbalance.value=this.balance;
+          },
+          withdraw_20: function() {
+            this.balance -= theAmount_20;
+            document.accountInfo.currentbalance.value=this.balance;
+            
+          },
+
+          deposit_50: function() {
+            this.balance += theAmount_50;
+            document.accountInfo.currentbalance.value=this.balance;
+          },
+          withdraw_50: function() {
+            this.balance -= theAmount_50;
+            document.accountInfo.currentbalance.value=this.balance;
+            
           }
         };
       </script>
@@ -44,8 +78,17 @@
     <h2>Bank Account of <script type="text/javascript">document.write(theBankAccount.owner)</script></h2>
     <form name="accountInfo">
       <input type="text" name="currentbalance"><br>
-      <input type="button" value="Deposit $5" onClick="theBankAccount.deposit();">
-      <input type="button" value="Withdraw $5" onClick="theBankAccount.withdraw();">
+      <input type="button" value="Deposit $5" onClick="theBankAccount.deposit_5();">
+      <input type="button" value="Withdraw $5" onClick="theBankAccount.withdraw_5();">
+      <br>
+      <input type="button" value="Deposit $10" onClick="theBankAccount.deposit_10();">
+      <input type="button" value="Withdraw $10" onClick="theBankAccount.withdraw_10();">
+      <br>
+      <input type="button" value="Deposit $20" onClick="theBankAccount.deposit_20();">
+      <input type="button" value="Withdraw $20" onClick="theBankAccount.withdraw_20();">
+      <br>
+      <input type="button" value="Deposit $50" onClick="theBankAccount.deposit_50();">
+      <input type="button" value="Withdraw $50" onClick="theBankAccount.withdraw_50();">
     </form>
 </body>
 </html>
