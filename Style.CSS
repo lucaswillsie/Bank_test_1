@@ -81,6 +81,7 @@ nav a:hover{
     transform: translate(380px, -300px);
     font-family: 'Spectral SC', serif;
     font-size: x-large;
+    text-shadow: 2px white;
 }
 
 .spliter {
