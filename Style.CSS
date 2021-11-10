@@ -4,7 +4,9 @@ body{
     font-family: 'Spectral SC', serif;
     font-weight: 300;
 }
-
+background {
+    background-image: url("photo-1477959858617-67f85cf4f1df.jpeg")    
+}
 .fonts {
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Playfair+Display:wght@500&family=Source+Serif+Pro&family=Spectral+SC:wght@300&display=swap');
 }
