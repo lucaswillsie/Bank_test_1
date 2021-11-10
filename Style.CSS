@@ -57,16 +57,27 @@ nav a {
 }
 
 nav a:hover{
-    color:orange;
+    color: orange;
 }
 
 .photo_border {
     border: 3px solid black;
-    transform: translate(70px, 70px);
+    transform: translate(-300px, 170px);
 }
 
 .text {
-    transform: translate(680px, -450px);
+    transform: translate(380px, -300px);
     font-family: 'Spectral SC', serif;
     font-size: x-large;
+}
+
+.spliter {
+    background: #CDE7F0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    font-family: 'Spectral SC', serif';
+}
+
+.video_index {
+    translate: translate(500px, 1414px)
 }
