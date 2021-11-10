@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    background: #E7F4F8;
+    font-family: 'Spectral SC', serif;
+    font-weight: 300;
+}
+
+.fonts {
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:ital,wght@1,300&family=Playfair+Display:wght@500&family=Source+Serif+Pro&family=Spectral+SC:wght@300&display=swap');
+}
+
+.container {
+    width:80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #CDE7F0;
+    border-bottom: 3px solid #000;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+    width: 14%;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+.photo_border {
+    border: 3px solid black;
+    transform: translate(70px, 70px);
+}
+
+.text {
+    transform: translate(680px, -450px);
+    font-family: 'Spectral SC', serif;
+    font-size: x-large;
+}
