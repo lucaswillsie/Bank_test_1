@@ -78,6 +78,7 @@ nav a:hover{
 }
 
 .text {
+    background: #CDE7F0;
     transform: translate(380px, -300px);
     font-family: 'Spectral SC', serif;
     font-size: x-large;
