@@ -12,8 +12,8 @@ body{
     background-image: url("CityBackground.jpeg")
 }
 
-html, body {
-    max-width: 600px;
+html{
+    max-width: 100%;
 }
 
 .fonts {
