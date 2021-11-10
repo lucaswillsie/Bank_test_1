@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+}
 
 body{
     margin: 0;
@@ -9,6 +10,10 @@ body{
     font-family: 'Spectral SC', serif;
     font-weight: 300;
     background-image: url("photo-1477959858617-67f85cf4f1df.jpeg")
+}
+
+html, body {
+     min-height: 100%;
 }
 
 .fonts {
