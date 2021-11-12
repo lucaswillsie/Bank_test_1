@@ -96,3 +96,9 @@ nav a:hover{
 .video_index {
     translate: translate(500px, 1414px)
 }
+
+
+.contactme {
+    font-family: 'Spectral SC', serif;
+    font-size: x-large;
+}
