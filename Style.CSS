@@ -9,7 +9,16 @@ body{
     background: #E7F4F8;
     font-family: 'Spectral SC', serif;
     font-weight: 300;
-    background-image: url("CityBackground.jpeg")
+}
+
+.bg-image {
+  background-image: url("photo-1477959858617-67f85cf4f1df.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 html{
