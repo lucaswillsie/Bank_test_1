@@ -9,16 +9,7 @@ body{
     background: #E7F4F8;
     font-family: 'Spectral SC', serif;
     font-weight: 300;
-}
-
-.bg-image {
-  background-image: url("photo-1477959858617-67f85cf4f1df.jpg");
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("photo-1477959858617-67f85cf4f1df.jpg");
 }
 
 html{
