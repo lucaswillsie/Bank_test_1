@@ -11,7 +11,6 @@ body{
     font-weight: 300;
     background-image: url("photo-1477959858617-67f85cf4f1df.jpeg");
     background-size: cover;
-    filter: blur(4px);
 }
 
 html{
