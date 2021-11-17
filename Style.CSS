@@ -91,7 +91,7 @@ nav a:hover{
 .photo_border {
     border: 3px solid black;
     border-radius: 9px;
-    transform: translate(-475px, 90px);
+    transform: translate(-375px, 90px);
     max-height: 600px;
     max-width: 600px;
 }
