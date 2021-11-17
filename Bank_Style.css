@@ -2,7 +2,12 @@
     Body {
         font-family: Calibri, Helvetica, sans-serif;
         font-family: 'Times New Roman', Times, serif;
-        background-image: url("lucaswillsie_background.png");
+      }
+        
+      .background {
+          background-image: url("lucaswillsie_background.png");
+          background-size: cover;
+          min-height: 40px; 
       }
       .header{
           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
