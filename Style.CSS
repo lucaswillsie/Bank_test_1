@@ -9,9 +9,11 @@ body{
     background: #E7F4F8;
     font-family: 'Spectral SC', serif;
     font-weight: 300;
+}
+.background {
     background-image: url("lucaswillsie_background.png");
     background-size: cover;
-    min-height: 700px;
+    min-height: 700px; 
 }
 
 html{
