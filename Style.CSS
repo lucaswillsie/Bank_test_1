@@ -98,6 +98,7 @@ nav a:hover{
 .spliter {
     background: #CDE7F0;
     border: 3px solid black;
+    border-radius: 9px;
     max-width: 700px;
     font-family: 'Spectral SC', serif';
 }
