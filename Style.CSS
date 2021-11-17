@@ -94,6 +94,7 @@ nav a:hover{
     font-size: large;
     border: 3px solid black;
     max-width: 550px;
+    min-height: 40px;
     border-radius: 9px;
 }
 
