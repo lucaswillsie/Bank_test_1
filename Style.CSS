@@ -90,7 +90,7 @@ nav a:hover{
     transform: translate(380px, -300px);
     font-family: 'Spectral SC', serif;
     font-size: large;
-    border: 4px solid black;
+    border: 3px solid black;
     max-width: 550px;
     border-radius: 9px;
 }
