@@ -122,4 +122,5 @@ nav a:hover{
     margin: auto;
     max-height: 322px;
     z-index: -1;
+    padding: 4px;
 }
