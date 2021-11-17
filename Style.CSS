@@ -123,5 +123,5 @@ nav a:hover{
     max-height: 330px;
     z-index: -1;
     padding: 4px;
-    transform: translate(150px, 0px);
+    transform: translate(75px, 0px);
 }
