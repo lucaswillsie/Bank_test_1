@@ -160,6 +160,7 @@ nav a:hover{
   display: inline-block;
   width: 160px;
   border: 4px black;
+  order: 1;
 }
 
 .dropdown-content {
