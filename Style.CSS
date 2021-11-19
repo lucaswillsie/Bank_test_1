@@ -150,7 +150,7 @@ nav a:hover{
 }
 
 .dropdown {
-  position: 0x 0x;
+  transform: translate(-175px, 0px);
   display: inline-block;
 }
 
