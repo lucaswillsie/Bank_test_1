@@ -44,7 +44,7 @@ header::after {
 }
 
 .logo {
-    float: left;
+    float: center;
     padding: 6px 0;
     width: 14%;
     height: auto;
