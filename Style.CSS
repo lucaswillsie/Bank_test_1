@@ -106,6 +106,11 @@ nav a:hover{
     border-radius: 9px;
 }
 
+.text_header {
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+}
+
 .spliter {
     background: #CDE7F0;
     border: 3px solid black;
