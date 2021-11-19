@@ -152,6 +152,7 @@ nav a:hover{
 .dropdown {
   transform: translate(-410px, 0px);
   display: inline-block;
+  width: 160px;
 }
 
 .dropdown-content {
