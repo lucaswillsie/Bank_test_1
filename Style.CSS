@@ -98,7 +98,6 @@ nav a:hover{
 
 .text {
     background: #CDE7F0;
-    transform: translate(380px, -300px);
     font-family: 'Spectral SC', serif;
     font-size: x-large;
     border: 3px solid black;
@@ -160,7 +159,6 @@ nav a:hover{
   display: inline-block;
   width: 160px;
   border: 4px black;
-  order: 1;
 }
 
 .dropdown-content {
