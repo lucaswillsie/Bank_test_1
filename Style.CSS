@@ -29,7 +29,6 @@ html{
 .container {
     width:80%;
     margin: 0 auto;
-    justify-content: center;
 }
 
 header {
@@ -44,8 +43,7 @@ header::after {
 }
 
 .logo {
-    float: center;
-    padding: 6px 0;
+    padding: 60px 0;
     width: 14%;
     height: auto;
     padding-bottom: 12px;
