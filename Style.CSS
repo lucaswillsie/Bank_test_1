@@ -154,6 +154,7 @@ nav a:hover{
   order: 1;
   display: inline-block;
   width: 160px;
+  border: 4px black;
 }
 
 .dropdown-content {
