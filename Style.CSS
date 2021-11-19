@@ -23,7 +23,8 @@ body{
 }
 
 html{
-    max-width: 1200;
+    max-width: 1200px;
+    height: 4000px;
 }
 
 .fonts {
