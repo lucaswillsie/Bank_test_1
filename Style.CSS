@@ -151,7 +151,7 @@ nav a:hover{
 
 .dropdown {
   background-color: #CDE7F0;
-  transform: translate(-410px, 0px);
+  transform: right;
   display: inline-block;
   width: 160px;
 }
