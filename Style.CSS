@@ -5,7 +5,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+h1 {
+    text-align: center;
+}
 body{
     margin: 0;
     background: #E7F4F8;
@@ -107,7 +109,7 @@ nav a:hover{
 
 .text_header {
     font-family: 'Spectral SC', serif;
-    text-align: center;
+    
 }
 
 .spliter {
