@@ -38,7 +38,6 @@ html{
 header {
     background: #CDE7F0;
     border-bottom: 3px solid #000;
-    text-align: center;
 }
 
 header::after {
