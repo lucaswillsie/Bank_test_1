@@ -46,6 +46,7 @@ header::after {
     padding: 6px 0;
     width: 14%;
     height: auto;
+    text-align: center;
     padding-bottom: 12px;
 }
 
