@@ -16,7 +16,7 @@ body{
 }
 .background {
     background-image: url("lucaswillsie_background.png");
-    background-size: cover;
+    background-size: 100%;
     min-height: 40px; 
 }
 
