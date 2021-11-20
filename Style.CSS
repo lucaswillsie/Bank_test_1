@@ -109,7 +109,6 @@ nav a:hover{
 
 .text_header {
     font-family: 'Spectral SC', serif;
-    
 }
 
 .spliter {
@@ -157,7 +156,6 @@ nav a:hover{
 
 .dropdown {
   background-color: #CDE7F0;
-  margin-left: auto;
   display: inline-block;
   width: 160px;
   border: 4px black;
