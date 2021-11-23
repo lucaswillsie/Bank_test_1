@@ -184,7 +184,8 @@ nav a:hover{
 
 .center {
   margin: auto;
-  width: 100;
+  width: 1em;
+  height: auto;
   transform: translate(500px, -25px);
-  font-weight: x-large;
+  font-: x-large;
 }
