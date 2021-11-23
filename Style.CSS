@@ -184,7 +184,6 @@ nav a:hover{
 
 .center {
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  width: 100%
   padding: 10px;   
 }
