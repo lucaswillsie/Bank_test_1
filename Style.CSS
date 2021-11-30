@@ -63,6 +63,7 @@ ul {
 li {
   display: inline;
   margin-left: 60px;
+  transform: translate(60px, 0px);
   margin-bottom: -12px;
 }
 
