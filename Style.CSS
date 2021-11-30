@@ -54,42 +54,10 @@ header::after {
     padding-bottom: 12px;
 }
 
-nav {
-    float: right;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    display: inline-block;
-    margin-left: 140px;
-    padding-top: 22px;
-    padding-bottom: 18px;
-    padding-right: 40px;
-}
-
-nav a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-nav a:hover{
-    color: #fff;
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .photo_border {
