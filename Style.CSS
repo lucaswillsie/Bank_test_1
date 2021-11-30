@@ -60,6 +60,10 @@ ul {
   padding: 0;
 }
 
+li {
+  display: inline;
+}
+
 .photo_border {
     border: 3px solid black;
     border-radius: 9px;
