@@ -58,12 +58,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 12px;
 }
 
 li {
   display: inline;
   margin-left: 6px;
-  margin- bottom: -12px;
 }
 
 .photo_border {
