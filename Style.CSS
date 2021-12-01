@@ -62,8 +62,7 @@ ul {
 
 li {
   display: inline;
-  margin-left: 60px;
-  transform: translate(-122px, 0px);
+  padding-right: 60px;
   margin-bottom: -12px;
 }
 
