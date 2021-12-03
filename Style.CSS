@@ -16,8 +16,8 @@ body{
     background-image: url(BackgroundFinal.png);
     width:auto;
     height:100%;
-    background-position: center top;
-    background-repeat: no-repeat;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 
 html{
