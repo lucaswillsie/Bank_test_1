@@ -13,12 +13,9 @@ body{
     font-weight: 300;
 }
 .background {
-    display:inline-block;
     background-image: url(BackgroundFinal.png);
-    width:auto;
-    height:100%;
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size: cover;
 }
 
 html{
