@@ -15,7 +15,6 @@ body{
 .background {
     background-image: url(BackgroundFinal.png);
     background-size: 800px auto;
-    height: auto;
     background-position: center top;
     background-repeat: no-repeat;
 }
