@@ -54,17 +54,19 @@ header::after {
 ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 li {
   display: inline;
-  padding-right: 50px;
+  padding-right: 100px
   font-family: 'Spectral SC', serif;
   text-decoration: none;
   font-size: 2em
 }
-
+li: after:hover {
+    
+}
 .photo_border {
     border: 3px solid black;
     border-radius: 9px;
