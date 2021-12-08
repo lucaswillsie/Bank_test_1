@@ -63,7 +63,7 @@ li {
   padding-right: 100px;
   font-family: 'Spectral SC', serif;
   font-size: 1vw;
-  font-color: black;
+  color: black;
 }
 li: after:hover {
     
