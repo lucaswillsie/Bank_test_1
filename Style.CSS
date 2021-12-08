@@ -4,6 +4,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
 }
 
 body{
@@ -62,7 +63,6 @@ li {
   padding-right: 100px;
   font-family: 'Spectral SC', serif;
   font-size: 2vw;
-  text-decoration: none;
 }
 li: after:hover {
     
