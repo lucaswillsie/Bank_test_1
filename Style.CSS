@@ -65,8 +65,8 @@ li {
   font-family: 'Spectral SC', serif;
   font-size: 1vw;
 }
-li: after:hover {
-    
+li:hover {
+    color: red;
 }
 .photo_border {
     border: 3px solid black;
